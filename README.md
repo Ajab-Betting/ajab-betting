@@ -2,7 +2,7 @@
 
 <br/>
 <p align="center">
-<img width="300" height="" alt="Image" src="https://github.com/user-attachments/assets/9c83daa8-fc2c-40be-aef4-b1584392ce7f" align="center"/>
+<img width="300" height="" alt="Image" src="https://raw.githubusercontent.com/Ajab-Betting/.github/refs/heads/main/betting-man-scaled.png" align="center"/>
 <br/>
 <i>The spirit of old banyan betting</i>
 </p>
