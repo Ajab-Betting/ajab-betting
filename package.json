@@ -2,6 +2,11 @@
   "name": "ajab-betting",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "pnpm": ">=9",
+    "npm": "false",
+    "yarn": "false"
+  },
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
