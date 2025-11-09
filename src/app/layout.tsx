@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ajab Betting App",
+  title: "Ajab Betting",
   description: "The spirit of old banyan betting",
 };
 
