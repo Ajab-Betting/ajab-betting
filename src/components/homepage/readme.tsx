@@ -14,7 +14,7 @@ export default async function GitHubReadme() {
   const content = await res.text();
 
   return (
-    <div className="text-white prose prose-invert max-w-none m-2 px-8 py-2 backdrop-blur-2xl bg-[rgba(0,0,0,0.1)] border-1 border-gray-600 ">
+    <div className="text-white text-shadow-lg prose prose-invert max-w-none m-2 px-8 py-2">
       <Mdx source={content} />
     </div>
   );

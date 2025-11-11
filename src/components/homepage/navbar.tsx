@@ -9,20 +9,20 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import images from "@/images";
+import resources from "@/resources";
 import { Menu } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="sticky top-2 z-50 flex items-center justify-between p-2 m-2 border-1 border-gray-600 bg-transparent backdrop-blur-2xl text-white shadow-2xl">
+    <nav className="sticky top-2 z-50 flex items-center justify-between p-2 m-2 border-1 border-gray-600 backdrop-blur-2xl text-white shadow-2xl bg-[rgba(0,0,0,0.5)]">
       {/* Logo */}
       <Link href="/" className="text-xl font-light">
         <Image
           className="inline-block"
-          src={images.bettingMan.src}
-          alt={images.bettingMan.alt}
+          src={resources.bettingMan.src}
+          alt={resources.bettingMan.alt}
           width={50}
           height={50}
         />
