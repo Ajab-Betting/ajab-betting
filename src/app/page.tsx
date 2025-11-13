@@ -1,6 +1,5 @@
 import Navbar from "@/components/homepage/navbar";
 import resources from "@/resources";
-import GitHubReadme from "@/components/homepage/readme";
 
 export default function Home() {
   return (
@@ -9,15 +8,14 @@ export default function Home() {
         autoPlay
         muted
         loop
-        className="object-fill fixed top-0 z-[-100] w-full h-full"
+        className="fixed top-0 left-0 w-full h-full object-cover z-[-100]"
       >
         <source src={resources.board.src} type={resources.board.videoType} />
       </video>
       <Navbar />
-      <div className="w-full max-w-[50rem] mx-auto">
-        <GitHubReadme />
+      <div className="fixed bottom-10 w-full text-center font-light text-white text-4xl max-md:text-2xl">
+        The spirit of old banyan betting
       </div>
-      <div className="py-10"></div>
     </div>
   );
 }

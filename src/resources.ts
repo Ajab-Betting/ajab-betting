@@ -13,7 +13,7 @@ let resources: Resources;
 if (resource == "public") {
   resources = {
     bettingMan: { src: "/betting-man-square.png", alt: "betting-man" },
-    board: { src: "/5920617-hd_1366_720_25fps.mp4", videoType: "video/mp4" },
+    board: { src: "/5446264-hd_1920_1080_25fps.mp4", videoType: "video/mp4" },
   };
 } else {
   resources = {} as Resources;
